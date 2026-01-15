@@ -45,7 +45,7 @@ This project focuses on **production-ready UI/UX**, real-time interactions, mess
 ## 📸 Screenshots / Demo
 
 ### 🔹 Light Mode
-![Light Mode](screenshots/light-mode.png)
+![Light Mode](ChatApp/screenshots/light-mode.png)
 
 ### 🔹 Dark Mode
 ![Dark Mode](screenshots/dark-mode.png)
