@@ -57,8 +57,11 @@ This project focuses on **production-ready UI/UX**, real-time interactions, mess
 
 ### 🔹 Contacts Sidebar
 ![Contacts Sidebar](screenshots/contacts.png)
+### 🔹 Clear Chat 
+![Clear Chat](screenshots/clearChat.png)
 
-
+### 🔹 After Clear Chat
+![After Clear Chat](screenshots/AfterClearChat.png)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tech Stack Used:
