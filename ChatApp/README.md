@@ -1,16 +1,130 @@
-# React + Vite
+# 💬 Real-Time WebSocket Chat Application (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **real-time chat application* built using **React.js**, **WebSockets**, and **Tailwind CSS**.  
+This project focuses on **production-ready UI/UX**, real-time interactions, message management, and theme customization.
 
-Currently, two official plugins are available:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 🔹 Real-Time Chat
+- ⚡ Real-time messaging using WebSockets
+- 🧑‍🤝‍🧑 Multiple users with auto-generated usernames
+- 🕒 Message timestamps
+- 🔄 Automatic scroll to latest message
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### ✏️ Message Management
+- ✍️ Edit your own messages (double-click to edit)
+- 🗑 Delete messages
+- 📝 Edited messages are marked as **(edited)**
+- ⌨️ Keyboard support:
+  - `Enter` → Save edit
+  - `Escape` → Cancel edit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🎨 UI / UX Enhancements
+- 🌗 Dark mode / Light mode toggle
+- 🎨 Dynamic gradient avatars for users
+- 🧭 Sidebar with contact list
+- 🔍 Highlight selected contact messages
+- 🌀 Smooth transitions and animations
+- 📱 Fully responsive layout
+
+---
+
+### 🧠 Smart Behaviors
+- 🟢 Typing indicator
+- 🧹 Clear chat with confirmation
+- 💾 Chat persistence using `localStorage`
+- 🚫 Duplicate message prevention
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📸 Screenshots / Demo
+
+> Add your application screenshots here to showcase UI and features.
+
+### 🔹 Light Mode
+```text
+/screenshots/light-mode.png
+
+
+![Light Mode](screenshots/light-mode.png)
+Dark Mode
+/screenshots/dark-mode.png
+
+Message Editing
+/screenshots/edit-message.png
+![Edit Message](screenshots/edit-message.png)
+
+
+Contacts SideBar
+/screenshots/contacts.png
+
+![Contacts Sidebar](screenshots/contacts.png)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tech Stack Used:
+
+React.js – Frontend framework
+WebSocket API – Real-time communication
+Tailwind CSS – Styling and responsiveness
+LocalStorage – Message persistence
+Vite – Development and build tool
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📂 Project Structure
+
+src/
+ ├── Chat.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+⚙️ How It Works
+
+A random username is generated on application load
+The app connects to a WebSocket server
+Messages are:
+Sent and received via WebSocket
+Stored in React state
+Persisted in localStorage
+UI updates in real time without page refresh
+Users can edit or delete only their own messages
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🌐 WebSocket Server Used
+wss://ws.ifelse.io
+
+▶️ Run Locally
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate to project folder
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🔮 Future Enhancements
+
+Emoji picker integration
+Message reactions
+Authentication (JWT / Firebase)
+Private and group chats
+File and image sharing
+Backend integration using Socket.IO
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+👨‍💻 Author
+
+Ankit Yadav
+Frontend Developer | React | WebSockets | Tailwind CSS
