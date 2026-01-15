@@ -45,26 +45,19 @@ This project focuses on **production-ready UI/UX**, real-time interactions, mess
 
 ## 📸 Screenshots / Demo
 
-> Add your application screenshots here to showcase UI and features.
 
 ### 🔹 Light Mode
-```text
-/screenshots/light-mode.png
-
-
 ![Light Mode](screenshots/light-mode.png)
-Dark Mode
-/screenshots/dark-mode.png
 
-Message Editing
-/screenshots/edit-message.png
+### 🔹 Dark Mode
+![Dark Mode](screenshots/dark-mode.png)
+
+### 🔹 Message Editing
 ![Edit Message](screenshots/edit-message.png)
 
-
-Contacts SideBar
-/screenshots/contacts.png
-
+### 🔹 Contacts Sidebar
 ![Contacts Sidebar](screenshots/contacts.png)
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
